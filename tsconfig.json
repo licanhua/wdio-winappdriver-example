@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "types": ["node", "@wdio/sync", "@wdio/jasmine-framework"],
+        "noEmit": true,
+        "target": "es6",
+        "skipLibCheck": true
+    },
+    "include": [
+        "./test/**/*spec.ts"
+    ]
+}
