@@ -16,7 +16,7 @@ exports.config = {
       },
     ],
     logLevel: "trace",
-    services: ["ywinappdriver"],
+    services: ["winappdriver"],
     framework: "jasmine",
     outputDir: ".\\reports",
     reporters: ["dot", ["junit", { outputDir: ".\\reports" }]],
